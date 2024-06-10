@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="55387480-9b53-41b6-9f0d-88daa828a461" name="Changes" comment="&quot;Nuevo 02&quot;">
+      <change beforePath="$PROJECT_DIR$/../Katas/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Katas/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Katas/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2024_21_38_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2024_21_38__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sprint02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint02/src/main/java/Tasca_S204/RestaurantQuery/RestaurantQuery.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TinuxTope&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bebcb298-f7f8-41c7-97a7-a6161d8c0b75" />
+        <option name="url" value="https://github.com/TinuxTope/ItAcademy.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2eQCkLX9Orjv7UprjeiPsiC9Hpg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BoundsException.executor": "Run",
+    "Application.BoundsExceptionTest.executor": "Run",
+    "Application.CadenasExtended.executor": "Run",
+    "Application.CadenasNumeros.executor": "Run",
+    "Application.Cadenes.executor": "Debug",
+    "Application.Desserialitzar.executor": "Run",
+    "Application.DirRecursivo.executor": "Run",
+    "Application.GuardarFichero.executor": "Run",
+    "Application.ListasDir.executor": "Run",
+    "Application.Lists.executor": "Run",
+    "Application.Llegir.executor": "Run",
+    "Application.LlistaMesos.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Mesos.executor": "Run",
+    "Application.MesosReference.executor": "Run",
+    "Application.Nombres.executor": "Run",
+    "Application.Operacions.executor": "Run",
+    "Application.TascaS1_03.N1.n1exercici1CristinaTomas.Main.executor": "Run",
+    "Application.TascaS1_03.N1.n1exercici3CristinaTomas.Main.executor": "Run",
+    "Application.TascaS1_03.N2.n2exercici1CristinaTomas.Main.executor": "Run",
+    "Application.TascaS1_03.N2.n2exercici2CristinaTomas.Main.executor": "Run",
+    "Application.Tortilla.executor": "Run",
+    "Application.Tortilla2.executor": "Run",
+    "JUnit.BounsExceptionTest.executor": "Run",
+    "JUnit.Diferencies.executor": "Run",
+    "JUnit.EqualsUnequal.executor": "Run",
+    "JUnit.TestDni.executor": "Run",
+    "JUnit.TestMatcher.executor": "Run",
+    "JUnit.TestMatcher.testLongitudMordor.executor": "Run",
+    "JUnit.TestMes.executor": "Run",
+    "JUnit.TestMes.longitudLlista.executor": "Run",
+    "JavaMethodFindUsagesOptions.isOverridingMethods": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Merging main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/crist/it_academy/Pràctica examen",
+    "onboarding.tips.debug.path": "C:/Users/crist/IdeaProjects/Sprint01/Katas/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="TascaS1_05.N1.n1exercici3CristinaTomas" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\crist\IdeaProjects\Sprint01\src\test\java\TascaS1_04\N1" />
+      <recent name="C:\Users\crist\IdeaProjects\Sprint01\src\test\java\TascaS1_04" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="TascaS1_04.N2.n2exercici1CristinaTomas" />
+      <recent name="TascaS1_04.N1.n1exercici3CristinaTomas" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BounsExceptionTest">
+    <configuration name="BounsExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TascaS1_04.N1.n1exercici3CristinaTomas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TascaS1_04.N1.n1exercici3CristinaTomas" />
+      <option name="MAIN_CLASS_NAME" value="TascaS1_04.N1.n1exercici3CristinaTomas.BounsExceptionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Diferencies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TascaS1_04.N3.n3exercici2CristinaTomas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TascaS1_04.N3.n3exercici2CristinaTomas" />
+      <option name="MAIN_CLASS_NAME" value="TascaS1_04.N3.n3exercici2CristinaTomas.Diferencies" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EqualsUnequal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TascaS1_04.N3.n3exercici1CristinaTomas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TascaS1_04.N3.n3exercici1CristinaTomas" />
+      <option name="MAIN_CLASS_NAME" value="TascaS1_04.N3.n3exercici1CristinaTomas.EqualsUnequal" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMatcher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TascaS1_04.N2.n2exercici1CristinaTomas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TascaS1_04.N2.n2exercici1CristinaTomas" />
+      <option name="MAIN_CLASS_NAME" value="TascaS1_04.N2.n2exercici1CristinaTomas.TestMatcher" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMatcher.testLongitudMordor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TascaS1_04.N2.n2exercici1CristinaTomas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TascaS1_04.N2.n2exercici1CristinaTomas" />
+      <option name="MAIN_CLASS_NAME" value="TascaS1_04.N2.n2exercici1CristinaTomas.TestMatcher" />
+      <option name="METHOD_NAME" value="testLongitudMordor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BounsExceptionTest" />
+        <item itemvalue="JUnit.Diferencies" />
+        <item itemvalue="JUnit.EqualsUnequal" />
+        <item itemvalue="JUnit.TestMatcher.testLongitudMordor" />
+        <item itemvalue="JUnit.TestMatcher" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55387480-9b53-41b6-9f0d-88daa828a461" name="Changes" comment="" />
+      <created>1711827557477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711827557477</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Sprint01/.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1713447907674</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1713447907674</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Sprint01/.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1713447926035</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1713447926035</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Sprint01/.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1713447954096</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1713447954097</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Sprint01/.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1713818963267</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1713818963268</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Sprint01/.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1713818977746</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1713818977746</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Nuevo 23">
+      <option name="closed" value="true" />
+      <created>1713829664629</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1713829664629</updated>
+    </task>
+    <task id="LOCAL-00034" summary="&quot;Nuevo 23&quot;">
+      <option name="closed" value="true" />
+      <created>1713829680649</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1713829680649</updated>
+    </task>
+    <task id="LOCAL-00035" summary="&quot;Nuevo 23&quot;">
+      <option name="closed" value="true" />
+      <created>1713870786117</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1713870786118</updated>
+    </task>
+    <task id="LOCAL-00036" summary="&quot;Nuevo 23&quot;">
+      <option name="closed" value="true" />
+      <created>1713870794726</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1713870794726</updated>
+    </task>
+    <task id="LOCAL-00037" summary="&quot;Nuevo 23&quot;">
+      <option name="closed" value="true" />
+      <created>1713965334191</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1713965334191</updated>
+    </task>
+    <task id="LOCAL-00038" summary="&quot;Nuevo 23&quot;">
+      <option name="closed" value="true" />
+      <created>1713965345724</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1713965345724</updated>
+    </task>
+    <task id="LOCAL-00039" summary="&quot;Nuevo 24&quot;">
+      <option name="closed" value="true" />
+      <created>1713965357609</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1713965357609</updated>
+    </task>
+    <task id="LOCAL-00040" summary="&quot;Nuevo 24&quot;">
+      <option name="closed" value="true" />
+      <created>1713993951202</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1713993951202</updated>
+    </task>
+    <task id="LOCAL-00041" summary="&quot;Nuevo 24&quot;">
+      <option name="closed" value="true" />
+      <created>1713993959484</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1713993959484</updated>
+    </task>
+    <task id="LOCAL-00042" summary="&quot;Nuevo 24&quot;">
+      <option name="closed" value="true" />
+      <created>1714005212359</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1714005212359</updated>
+    </task>
+    <task id="LOCAL-00043" summary="&quot;Nuevo 24&quot;">
+      <option name="closed" value="true" />
+      <created>1714005225640</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1714005225640</updated>
+    </task>
+    <task id="LOCAL-00044" summary="&quot;Nuevo 24&quot;">
+      <option name="closed" value="true" />
+      <created>1714005231041</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1714005231041</updated>
+    </task>
+    <task id="LOCAL-00045" summary="&quot;Nuevo 24&quot;">
+      <option name="closed" value="true" />
+      <created>1714007423067</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1714007423067</updated>
+    </task>
+    <task id="LOCAL-00046" summary="&quot;Nuevo 24&quot;">
+      <option name="closed" value="true" />
+      <created>1714007428377</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1714007428377</updated>
+    </task>
+    <task id="LOCAL-00047" summary="&quot;Nuevo 24&quot;">
+      <option name="closed" value="true" />
+      <created>1714007435706</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1714007435706</updated>
+    </task>
+    <task id="LOCAL-00048" summary="&quot;Nuevo 24&quot;">
+      <option name="closed" value="true" />
+      <created>1714007439826</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1714007439826</updated>
+    </task>
+    <task id="LOCAL-00049" summary="&quot;Nuevo 25&quot;">
+      <option name="closed" value="true" />
+      <created>1714031453375</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1714031453375</updated>
+    </task>
+    <task id="LOCAL-00050" summary="&quot;Nuevo 25&quot;">
+      <option name="closed" value="true" />
+      <created>1714031459428</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1714031459428</updated>
+    </task>
+    <task id="LOCAL-00051" summary="&quot;Nuevo 25&quot;">
+      <option name="closed" value="true" />
+      <created>1714032070447</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1714032070447</updated>
+    </task>
+    <task id="LOCAL-00052" summary="&quot;Nuevo 25&quot;">
+      <option name="closed" value="true" />
+      <created>1714032081580</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1714032081580</updated>
+    </task>
+    <task id="LOCAL-00053" summary="&quot;Nuevo 25&quot;">
+      <option name="closed" value="true" />
+      <created>1714032107526</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1714032107526</updated>
+    </task>
+    <task id="LOCAL-00054" summary="&quot;Nuevo 25&quot;">
+      <option name="closed" value="true" />
+      <created>1714032117150</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1714032117151</updated>
+    </task>
+    <task id="LOCAL-00055" summary="&quot;Nuevo 25&quot;">
+      <option name="closed" value="true" />
+      <created>1714034767089</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1714034767089</updated>
+    </task>
+    <task id="LOCAL-00056" summary="&quot;Nuevo 25&quot;">
+      <option name="closed" value="true" />
+      <created>1714034780333</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1714034780333</updated>
+    </task>
+    <task id="LOCAL-00057" summary="&quot;Nuevo 25&quot;">
+      <option name="closed" value="true" />
+      <created>1714034811940</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1714034811941</updated>
+    </task>
+    <task id="LOCAL-00058" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714382868216</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1714382868216</updated>
+    </task>
+    <task id="LOCAL-00059" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714382899075</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1714382899075</updated>
+    </task>
+    <task id="LOCAL-00060" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714388776423</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1714388776423</updated>
+    </task>
+    <task id="LOCAL-00061" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714388787026</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1714388787026</updated>
+    </task>
+    <task id="LOCAL-00062" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714576501751</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1714576501752</updated>
+    </task>
+    <task id="LOCAL-00063" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714576511037</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1714576511037</updated>
+    </task>
+    <task id="LOCAL-00064" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714577860900</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1714577860900</updated>
+    </task>
+    <task id="LOCAL-00065" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714577868079</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1714577868080</updated>
+    </task>
+    <task id="LOCAL-00066" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714587078191</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1714587078191</updated>
+    </task>
+    <task id="LOCAL-00067" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714587088423</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1714587088423</updated>
+    </task>
+    <task id="LOCAL-00068" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714592267184</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1714592267184</updated>
+    </task>
+    <task id="LOCAL-00069" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714592274618</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1714592274618</updated>
+    </task>
+    <task id="LOCAL-00070" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714592294040</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1714592294040</updated>
+    </task>
+    <task id="LOCAL-00071" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714646181481</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1714646181482</updated>
+    </task>
+    <task id="LOCAL-00072" summary="&quot;Nuevo 29&quot;">
+      <option name="closed" value="true" />
+      <created>1714646194476</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1714646194476</updated>
+    </task>
+    <task id="LOCAL-00073" summary="&quot;Nuevo 02&quot;">
+      <option name="closed" value="true" />
+      <created>1714647671602</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1714647671602</updated>
+    </task>
+    <task id="LOCAL-00074" summary="&quot;Nuevo 02&quot;">
+      <option name="closed" value="true" />
+      <created>1714647677412</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1714647677412</updated>
+    </task>
+    <task id="LOCAL-00075" summary="&quot;Nuevo 02&quot;">
+      <option name="closed" value="true" />
+      <created>1715168574865</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1715168574866</updated>
+    </task>
+    <task id="LOCAL-00076" summary="&quot;Nuevo 02&quot;">
+      <option name="closed" value="true" />
+      <created>1715168607844</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1715168607844</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="&quot;new&quot;" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Sprint01/.idea/workspace.xml" />
+    <MESSAGE value="Nuevo 23" />
+    <MESSAGE value="&quot;Nuevo 23&quot;" />
+    <MESSAGE value="&quot;Nuevo 24&quot;" />
+    <MESSAGE value="&quot;Nuevo 25&quot;" />
+    <MESSAGE value="&quot;Nuevo 29&quot;" />
+    <MESSAGE value="&quot;Nuevo 02&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Nuevo 02&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Katas/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/TascaS1_04/N1/n1exercici1CristinaTomas/LlistaMesos.java</url>
+          <line>7</line>
+          <properties class="TascaS1_04.N1.n1exercici1CristinaTomas.LlistaMesos" method="inserirMesos">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Sprint01$TestDni.ic" NAME="TestDni Coverage Results" MODIFIED="1713959397119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TascaS1_04.n1exercici2CristinaTomas.*</FILTER>
+    </SUITE>
+  </component>
+</project>

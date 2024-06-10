@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="38eed1c1-f98e-44cf-93d8-93e127e51582" name="Changes" comment="first" />
+=======
+    <list default="true" id="38eed1c1-f98e-44cf-93d8-93e127e51582" name="Changes" comment="&quot;&quot;f&quot;&quot;" />
+>>>>>>> 9177dfca889e7ba438306769b28e6421ef47bda8
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2gBO98JWAblx76BoTCyDcKdiSri" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+<<<<<<< HEAD
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/crist/IdeaProjects/Sprint02/src/main/java/org/example/Main.java&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/crist/IdeaProjects/Sprint02/src/main/java/org/example/Main.java"
+>>>>>>> 9177dfca889e7ba438306769b28e6421ef47bda8
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38eed1c1-f98e-44cf-93d8-93e127e51582" name="Changes" comment="" />
+      <created>1715167352127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715167352127</updated>
+    </task>
+    <task id="LOCAL-00001" summary="&quot;08&quot;">
+      <option name="closed" value="true" />
+      <created>1715167661087</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715167661087</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;08&quot;">
+      <option name="closed" value="true" />
+      <created>1715167714299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715167714299</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;08&quot;">
+      <option name="closed" value="true" />
+      <created>1715207983946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715207983946</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;08&quot;">
+      <option name="closed" value="true" />
+      <created>1715207995923</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715207995923</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;09&quot;">
+      <option name="closed" value="true" />
+      <created>1715208088904</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715208088904</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;09&quot;">
+      <option name="closed" value="true" />
+      <created>1715208265626</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715208265626</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Mensaje descriptivo del commit">
+      <option name="closed" value="true" />
+      <created>1715209349074</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715209349074</updated>
+    </task>
+    <task id="LOCAL-00008" summary="&quot;&quot;f&quot;&quot;">
+      <option name="closed" value="true" />
+      <created>1715209698033</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715209698033</updated>
+    </task>
+    <task id="LOCAL-00009" summary="first">
+      <option name="closed" value="true" />
+      <created>1715292982709</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715292982709</updated>
+    </task>
+    <task id="LOCAL-00010" summary="first">
+      <option name="closed" value="true" />
+      <created>1715292991004</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715292991004</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;08&quot;" />
+    <MESSAGE value="&quot;09&quot;" />
+    <MESSAGE value="Mensaje descriptivo del commit" />
+    <MESSAGE value="&quot;&quot;f&quot;&quot;" />
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
