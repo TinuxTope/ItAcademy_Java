@@ -46,7 +46,7 @@ public class Menu {
                     System.out.println("Error: " + e.getMessage());
                 } catch (InputMismatchException e) {
                     System.out.println("Entrada no válida. Por favor, ingrese un número.");
-                    input.next(); // clear the invalid input
+                    input.next();
                 } catch (Exception e) {
                     System.out.println("Error desconocido: " + e.getMessage());
                 }
