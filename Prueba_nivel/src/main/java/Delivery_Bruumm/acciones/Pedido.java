@@ -13,15 +13,23 @@ public class Pedido {
     private List<Producto> productos;
     private Repartidor repartidor;
     private EstadoPedido estado;
-    private String regalo;
 
-    public Pedido (Cliente cliente, List<Producto> productos, Repartidor repartidor){
+    public Pedido(Cliente cliente, List<Producto> productos, Repartidor repartidor) {
         this.pedidoId = nextPedidoId++;
         this.cliente = cliente;
         this.productos = productos;
         this.repartidor = repartidor;
         this.estado = EstadoPedido.PENDIENTE;
-        this.regalo = regalo;
+        entregarRegalos();
+    }
+
+    private void entregarRegalos() {
+        productos.forEach(producto -> {
+            String regalo = producto.getTipo().getRegalo();
+            if (!regalo.equals("Sin regalo")) {
+                System.out.println("Por la compra de: " + producto.getTipo() + " hay que añadir un/a " + regalo + " de regalo.");
+            }
+        });
     }
 
     public int getPedidoId() {
@@ -44,30 +52,10 @@ public class Pedido {
         return estado;
     }
 
-    public String getRegalo() {
-        return regalo;
-    }
-
     public void entregado() {
         this.estado = EstadoPedido.ENTREGADO;
         repartidor.setDisponible(true);
     }
-
-    public double calcularTotalPrecio() {
-        double total = productos.stream().mapToDouble(Producto::getPrecio).sum();
-        switch (repartidor.getModo()) {
-            case BICICLETA:
-                total *= 1.01;
-                break;
-            case MOTO:
-                total *= 1.02;
-                break;
-            default:
-                break;
-        }
-        return total;
-    }
-    //public String entregaRegalo(){}
 
     @Override
     public String toString() {
