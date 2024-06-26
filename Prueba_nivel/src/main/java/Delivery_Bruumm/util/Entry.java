@@ -15,7 +15,7 @@ public class Entry {
                 valueOK = true;
             } catch (InputMismatchException e) {
                 System.out.println("Error en el formato. Por favor, introduzca un número válido.");
-                input.nextLine(); // clear the invalid input
+                input.nextLine();
             }
         }
         return value;
@@ -23,7 +23,7 @@ public class Entry {
 
     public static String readString(String message, Scanner input) {
         System.out.print(message);
-        input.nextLine(); // clear the buffer
+        input.nextLine();
         return input.nextLine();
     }
 }

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d8fcba9-4601-403e-bdbc-8e0a760aecf8" name="Changes" comment="fin3">
+      <change afterPath="$PROJECT_DIR$/../Sprint04/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +43,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/crist/IdeaProjects",
+    "last_opened_file_path": "C:/Users/crist/IdeaProjects/Prueba_nivel",
     "onboarding.tips.debug.path": "C:/Users/crist/IdeaProjects/Prueba_nivel/src/main/java/org/example/Main.java"
   }
 }]]></component>
