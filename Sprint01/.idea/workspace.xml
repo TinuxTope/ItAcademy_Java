@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55387480-9b53-41b6-9f0d-88daa828a461" name="Changes" comment="&quot;Nuevo 02&quot;">
-      <change beforePath="$PROJECT_DIR$/../Katas/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Katas/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Katas/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2024_21_38_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2024_21_38__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sprint02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sprint02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sprint02/src/main/java/Tasca_S204/RestaurantQuery/RestaurantQuery.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,10 +96,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/crist/it_academy/Pràctica examen",
+    "last_opened_file_path": "C:/Users/crist/IdeaProjects/Sprint04/Tasca_S4.01/S04T01N01TomasCristina",
     "onboarding.tips.debug.path": "C:/Users/crist/IdeaProjects/Sprint01/Katas/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
