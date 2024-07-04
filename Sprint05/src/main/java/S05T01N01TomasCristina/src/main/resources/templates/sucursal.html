@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Sucursales</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center">Gestión de Sucursales</h1>
+
+    <!-- Formulario para agregar una nueva sucursal -->
+    <div class="card mt-4">
+        <div class="card-header">
+            <h2>Agregar Nueva Sucursal</h2>
+        </div>
+        <div class="card-body">
+            <form th:action="@{/sucursal/add}" method="post">
+                <div class="form-group">
+                    <label for="nomSucursal">Nombre de la Sucursal</label>
+                    <input type="text" class="form-control" id="nomSucursal" name="nomSucursal" required>
+                </div>
+                <div class="form-group">
+                    <label for="paisSucursal">País de la Sucursal</label>
+                    <input type="text" class="form-control" id="paisSucursal" name="paisSucursal" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Agregar Sucursal</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Tabla para mostrar las sucursales -->
+    <div class="card mt-4">
+        <div class="card-header">
+            <h2>Lista de Sucursales</h2>
+        </div>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>País</th>
+                    <th>Tipo</th>
+                    <th>Acciones</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="sucursal : ${sucursales}">
+                    <td th:text="${sucursal.pk_SucursalID}"></td>
+                    <td th:text="${sucursal.nomSucursal}"></td>
+                    <td th:text="${sucursal.paisSucursal}"></td>
+                    <td th:text="${sucursal.tipusSucursal}"></td>
+                    <td>
+                        <a th:href="@{/sucursal/update/{id}(id=${sucursal.pk_SucursalID})}" class="btn btn-warning btn-sm">Editar</a>
+                        <a th:href="@{/sucursal/delete/{id}(id=${sucursal.pk_SucursalID})}" class="btn btn-danger btn-sm">Eliminar</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
