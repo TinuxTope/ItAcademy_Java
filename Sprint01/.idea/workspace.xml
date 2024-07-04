@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55387480-9b53-41b6-9f0d-88daa828a461" name="Changes" comment="&quot;Nuevo 02&quot;">
+      <change beforePath="$PROJECT_DIR$/../Prueba_nivel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prueba_nivel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +100,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/crist/IdeaProjects/Sprint04/Tasca_S4.01/S04T01N01TomasCristina",
+    "last_opened_file_path": "C:/Users/crist/IdeaProjects/Sprint01",
     "onboarding.tips.debug.path": "C:/Users/crist/IdeaProjects/Sprint01/Katas/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -120,7 +121,7 @@
       <recent name="TascaS1_04.N1.n1exercici3CristinaTomas" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BounsExceptionTest">
+  <component name="RunManager">
     <configuration name="BounsExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint01" />
       <extension name="coverage">
