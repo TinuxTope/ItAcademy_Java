@@ -5,11 +5,11 @@ import java.util.List;
 
 public class CountryOceania {
     public static final List<String> COUNTRIES = Arrays.asList(
-            "Australia", "Fiji", "Kiribati", "Marshall Islands", "Micronesia", "Nauru", "New Zealand",
-            "Palau", "Papua New Guinea", "Samoa", "Solomon Islands", "Tonga", "Tuvalu", "Vanuatu"
+            "australia", "fiji", "kiribati", "marshall islands", "micronesia", "nauru", "new zealand",
+            "palau", "papua new guinea", "samoa", "solomon islands", "tonga", "tuvalu", "vanuatu"
     );
 
     public static boolean isCountry(String country) {
-        return COUNTRIES.contains(country);
+        return COUNTRIES.contains(country.toLowerCase());
     }
 }

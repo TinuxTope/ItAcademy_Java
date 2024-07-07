@@ -8,8 +8,8 @@ import org.springframework.web.context.request.WebRequest;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
-    @ExceptionHandler(SucursalNotFoundException.class)
-    public ResponseEntity<?> resourceNotFoundException(SucursalNotFoundException ex, WebRequest request) {
+    @ExceptionHandler(BranchNotFoundException.class)
+    public ResponseEntity<?> resourceNotFoundException(BranchNotFoundException ex, WebRequest request) {
         ErrorDetails errorDetails = new ErrorDetails(HttpStatus.NOT_FOUND.value(), ex.getMessage(), request.getDescription(false));
         return new ResponseEntity<>(errorDetails, HttpStatus.NOT_FOUND);
     }

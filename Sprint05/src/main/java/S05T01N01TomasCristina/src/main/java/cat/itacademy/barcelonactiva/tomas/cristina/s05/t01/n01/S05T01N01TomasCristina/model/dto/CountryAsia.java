@@ -5,16 +5,16 @@ import java.util.List;
 
 public class CountryAsia {
     public static final List<String> COUNTRIES = Arrays.asList(
-            "Afghanistan", "Armenia", "Azerbaijan", "Bahrain", "Bangladesh", "Bhutan", "Brunei",
-            "Cambodia", "China", "Cyprus", "Georgia", "India", "Indonesia", "Iran", "Iraq",
-            "Israel", "Japan", "Jordan", "Kazakhstan", "Kuwait", "Kyrgyzstan", "Laos", "Lebanon",
-            "Malaysia", "Maldives", "Mongolia", "Myanmar", "Nepal", "North Korea", "Oman",
-            "Pakistan", "Palestine", "Philippines", "Qatar", "Saudi Arabia", "Singapore",
-            "South Korea", "Sri Lanka", "Syria", "Taiwan", "Tajikistan", "Thailand", "Timor-Leste",
-            "Turkey", "Turkmenistan", "United Arab Emirates", "Uzbekistan", "Vietnam", "Yemen"
+            "afghanistan", "armenia", "azerbaijan", "bahrain", "bangladesh", "bhutan", "brunei",
+            "cambodia", "china", "cyprus", "georgia", "india", "indonesia", "iran", "iraq",
+            "israel", "japan", "jordan", "kazakhstan", "kuwait", "kyrgyzstan", "laos", "lebanon",
+            "malaysia", "maldives", "mongolia", "myanmar", "nepal", "north korea", "oman",
+            "pakistan", "palestine", "philippines", "qatar", "saudi arabia", "singapore",
+            "south korea", "sri lanka", "syria", "taiwan", "tajikistan", "thailand", "timor-leste",
+            "turkey", "turkmenistan", "united arab emirates", "uzbekistan", "vietnam", "yemen"
     );
 
     public static boolean isCountry(String country) {
-        return COUNTRIES.contains(country);
+        return COUNTRIES.contains(country.toLowerCase());
     }
 }

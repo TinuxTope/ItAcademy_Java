@@ -5,16 +5,18 @@ import java.util.List;
 
 public class CountryEurope {
     public static final List<String> COUNTRIES = Arrays.asList(
-            "Austria", "Belgium", "Bulgaria", "Croatia", "Cyprus", "Czech Republic", "Denmark",
-            "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Italy",
-            "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal",
-            "Romania", "Slovakia", "Slovenia", "Spain", "Sweden", "Norway", "Switzerland",
-            "Iceland", "Liechtenstein", "Monaco", "San Marino", "Andorra", "Albania",
-            "Bosnia and Herzegovina", "Kosovo", "Macedonia", "Moldova", "Montenegro", "Serbia",
-            "Ukraine", "Vatican City"
+            "albania", "andorra", "armenia", "austria", "azerbaijan", "belarus",
+            "belgium", "bosnia and herzegovina", "bulgaria", "croatia", "cyprus",
+            "czech republic", "denmark", "estonia", "finland", "france", "georgia",
+            "germany", "greece", "hungary", "iceland", "ireland", "italy", "kazakhstan",
+            "kosovo", "latvia", "liechtenstein", "lithuania", "luxembourg", "malta",
+            "moldova", "monaco", "montenegro", "netherlands", "north macedonia", "norway",
+            "poland", "portugal", "romania", "russia", "san marino", "serbia", "slovakia",
+            "slovenia", "spain", "sweden", "switzerland", "turkey", "ukraine", "united kingdom",
+            "vatican city"
     );
 
     public static boolean isCountry(String country) {
-        return COUNTRIES.contains(country);
+        return COUNTRIES.contains(country.toLowerCase());
     }
 }

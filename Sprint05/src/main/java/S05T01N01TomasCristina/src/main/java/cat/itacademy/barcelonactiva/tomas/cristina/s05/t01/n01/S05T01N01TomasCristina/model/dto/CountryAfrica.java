@@ -5,17 +5,17 @@ import java.util.List;
 
 public class CountryAfrica {
     public static final List<String> COUNTRIES = Arrays.asList(
-            "Algeria", "Angola", "Benin", "Botswana", "Burkina Faso", "Burundi", "Cabo Verde",
-            "Cameroon", "Central African Republic", "Chad", "Comoros", "Congo", "DR Congo",
-            "Djibouti", "Egypt", "Equatorial Guinea", "Eritrea", "Eswatini", "Ethiopia", "Gabon",
-            "Gambia", "Ghana", "Guinea", "Guinea-Bissau", "Ivory Coast", "Kenya", "Lesotho",
-            "Liberia", "Libya", "Madagascar", "Malawi", "Mali", "Mauritania", "Mauritius",
-            "Morocco", "Mozambique", "Namibia", "Niger", "Nigeria", "Rwanda", "Sao Tome and Principe",
-            "Senegal", "Seychelles", "Sierra Leone", "Somalia", "South Africa", "South Sudan",
-            "Sudan", "Tanzania", "Togo", "Tunisia", "Uganda", "Zambia", "Zimbabwe"
+            "algeria", "angola", "benin", "botswana", "burkina faso", "burundi", "cabo verde",
+            "cameroon", "central african republic", "chad", "comoros", "congo", "dr congo",
+            "djibouti", "egypt", "equatorial guinea", "eritrea", "eswatini", "ethiopia", "gabon",
+            "gambia", "ghana", "guinea", "guinea-bissau", "ivory coast", "kenya", "lesotho",
+            "liberia", "libya", "madagascar", "malawi", "mali", "mauritania", "mauritius",
+            "morocco", "mozambique", "namibia", "niger", "nigeria", "rwanda", "sao tome and principe",
+            "senegal", "seychelles", "sierra leone", "somalia", "south africa", "south sudan",
+            "sudan", "tanzania", "togo", "tunisia", "uganda", "zambia", "zimbabwe"
     );
 
     public static boolean isCountry(String country) {
-        return COUNTRIES.contains(country);
+        return COUNTRIES.contains(country.toLowerCase());
     }
 }
