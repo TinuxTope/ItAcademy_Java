@@ -1,4 +1,4 @@
-package cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCristina.model.dto;
+package S05T01N01TomasCristina.src.main.java.cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCristina.model.dto;
 
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCristina.exceptions.BranchNotFoundException;
 
@@ -59,7 +59,7 @@ public class BranchDTO {
             return "Europe";
         } else if (CountryAsia.isCountry(branchCountry)) {
             return "Asia";
-        } else if (CountryAfrica.isCountry(branchCountry)) {
+        } else if (cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCristina.model.dto.CountryAfrica.isCountry(branchCountry)) {
             return "Africa";
         } else if (CountryAmerica.isCountry(branchCountry)) {
             return "America";
