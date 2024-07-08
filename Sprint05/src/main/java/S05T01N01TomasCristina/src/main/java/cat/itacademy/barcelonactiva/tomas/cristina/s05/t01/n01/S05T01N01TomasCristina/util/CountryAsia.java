@@ -1,4 +1,4 @@
-package S05T01N01TomasCristina.src.main.java.cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCristina.model.dto;
+package cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCristina.util;
 
 import java.util.Arrays;
 import java.util.List;

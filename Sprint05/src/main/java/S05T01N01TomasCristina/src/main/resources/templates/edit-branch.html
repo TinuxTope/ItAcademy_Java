@@ -51,7 +51,7 @@
             <h2>Editar Sucursal</h2>
         </div>
         <div class="card-body">
-            <form th:action="@{/branch/edit/{id}(id=${branch.id})}" method="post">
+            <form th:action="@{/branch/update/{id}(id=${branch.id})}" method="post">
                 <div class="form-group">
                     <label for="branchName">Nombre de la Sucursal</label>
                     <input type="text" class="form-control" id="branchName" name="branchName" th:value="${branch.branchName}" required>

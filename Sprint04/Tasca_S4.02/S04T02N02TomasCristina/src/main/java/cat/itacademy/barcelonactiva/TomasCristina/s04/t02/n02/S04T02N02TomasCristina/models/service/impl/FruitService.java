@@ -1,4 +1,4 @@
-package cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCristina.models.service.implementacion;
+package cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCristina.models.service.impl;
 
 import cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCristina.exceptions.FruitNotFoundException;
 import cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCristina.models.domain.Fruit;
@@ -10,38 +10,38 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class FruitServiceImp implements IFruitService {
+public class FruitService implements IFruitService {
     @Autowired
-    private FruitRepository fruitaRepository;
+    private FruitRepository fruitRepository;
 
     @Override
     public Fruit addFruita(Fruit fruita) {
-        return fruitaRepository.save(fruita);
+        return fruitRepository.save(fruita);
     }
 
     @Override
     public Fruit updateFruita(Fruit fruita) {
-        if (!fruitaRepository.existsById(fruita.getId())) {
+        if (!fruitRepository.existsById(fruita.getId())) {
             throw new FruitNotFoundException("Fruit with ID " + fruita.getId() + " not found");
         }
-        return fruitaRepository.save(fruita);
+        return fruitRepository.save(fruita);
     }
 
     @Override
     public void deleteFruita(int id) {
-        if (!fruitaRepository.existsById(id)) {
-            throw new FruitNotFoundException("Fruit with ID " + id + " not found");
-        }
-        fruitaRepository.deleteById(id);
+        Fruit fruita = fruitRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Fruit not found with id " + id));
+        fruitRepository.delete(fruita);
     }
 
     @Override
     public Fruit getFruitaById(int id) {
-        return fruitaRepository.findById(id).orElseThrow(() -> new FruitNotFoundException("Fruit with ID " + id + " not found"));
+        return fruitRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Fruit not found with id " + id));
     }
 
     @Override
     public List<Fruit> getAllFruites() {
-        return fruitaRepository.findAll();
+        return fruitRepository.findAll();
     }
 }
