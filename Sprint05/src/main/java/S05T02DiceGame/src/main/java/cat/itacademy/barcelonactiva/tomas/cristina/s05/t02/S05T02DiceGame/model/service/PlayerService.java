@@ -2,7 +2,7 @@ package cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model
 
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.exceptions.PlayerAlreadyExistException;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.exceptions.PlayerNotFoundException;
-import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.domian.Player;
+import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.domain.Player;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.repository.PlayerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

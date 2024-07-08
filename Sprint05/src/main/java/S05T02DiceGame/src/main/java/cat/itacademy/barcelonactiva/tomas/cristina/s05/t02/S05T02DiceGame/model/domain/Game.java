@@ -1,4 +1,4 @@
-package cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.domian;
+package cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.domain;
 
 
 import jakarta.persistence.*;

@@ -1,6 +1,6 @@
 package cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.controllers;
 
-import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.domian.Player;
+import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.domain.Player;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.service.PlayerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -16,8 +16,8 @@ public class PlayerController {
     private PlayerService playerService;
 
     @PostMapping
-    public ResponseEntity<Player> createPlayer(@RequestBody String name) {
-        Player player = playerService.createPlayer(name);
+    public ResponseEntity<Player> createPlayer(@RequestBody String name, @RequestBody String dni, @RequestBody String email) {
+        Player player = playerService.createPlayer(name, dni, email);
         return ResponseEntity.ok(player);
     }
 
