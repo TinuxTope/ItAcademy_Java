@@ -1,12 +1,10 @@
 package cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCristina.controllers;
 
 import cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCristina.models.domain.Fruit;
-import cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCristina.models.service.IFruitService;
+import cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCristina.models.service.FruitService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
@@ -14,7 +12,7 @@ import java.util.List;
 @RequestMapping("/fruits")
 public class FruitController {
     @Autowired
-    private IFruitService fruitService;
+    private FruitService fruitService;
 
     @PostMapping("/add")
     public ResponseEntity<String> addFruita(@RequestBody Fruit fruita) {
@@ -31,22 +29,17 @@ public class FruitController {
 
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<String> deleteFruita(@PathVariable int id) {
-        try {
-            fruitService.deleteFruita(id);
-            return ResponseEntity.ok().body("Fruit with ID " + id + " deleted successfully");
-        } catch (RuntimeException e) {
-            throw new ResponseStatusException(HttpStatus.NOT_FOUND, e.getMessage());
-        }
+        fruitService.deleteFruita(id);
+        return ResponseEntity.ok().body("Fruit with ID " + id + " deleted successfully");
+
     }
 
     @GetMapping("/getOne/{id}")
     public ResponseEntity<Fruit> getFruitaById(@PathVariable int id) {
-        try {
-            Fruit fruita = fruitService.getFruitaById(id);
-            return ResponseEntity.ok().body(fruita);
-        } catch (RuntimeException e) {
-            throw new ResponseStatusException(HttpStatus.NOT_FOUND, e.getMessage());
-        }
+
+        Fruit fruita = fruitService.getFruitaById(id);
+        return ResponseEntity.ok().body(fruita);
+
     }
 
     @GetMapping("/getAll")

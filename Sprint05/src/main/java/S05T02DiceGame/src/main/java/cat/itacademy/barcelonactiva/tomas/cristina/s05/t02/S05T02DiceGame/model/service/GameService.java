@@ -5,21 +5,22 @@ import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.domain.Player;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.repository.GameRepository;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.repository.PlayerRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.Random;
 
 @Service
 public class GameService {
-    @Autowired
-    private GameRepository gameRepository;
+    private final GameRepository gameRepository;
+    private final PlayerRepository playerRepository;
+    private final Random random = new Random();
 
-    @Autowired
-    private PlayerRepository playerRepository;
-
-    private Random random = new Random();
+    public GameService(GameRepository gameRepository, PlayerRepository playerRepository) {
+        this.gameRepository = gameRepository;
+        this.playerRepository = playerRepository;
+    }
 
     public Game playGame(Long playerId) {
         Player player = playerRepository.findById(playerId)
@@ -38,10 +39,10 @@ public class GameService {
         return gameRepository.save(game);
     }
 
-    public List<Game> getGamesByPlayer(Long playerId) {
+    public Page<Game> getGamesByPlayer(Long playerId, Pageable pageable) {
         if (!playerRepository.existsById(playerId)) {
             throw new PlayerNotFoundException("Player not found with id " + playerId);
         }
-        return gameRepository.findByPlayerId(playerId);
+        return gameRepository.findByPlayerId(playerId, pageable);
     }
 }

@@ -7,17 +7,14 @@ public class PlayerDTO {
     private String name;
     private Date registerDate;
 
-    // Constructor por defecto
     public PlayerDTO() {}
 
-    // Constructor con parámetros
     public PlayerDTO(Long id, String name, Date registerDate) {
         this.id = id;
         this.name = name;
         this.registerDate = registerDate;
     }
 
-    // Getters y Setters
     public Long getId() {
         return id;
     }

@@ -3,14 +3,14 @@ package cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCri
 import cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCristina.exceptions.FruitNotFoundException;
 import cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCristina.models.domain.Fruit;
 import cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCristina.models.repository.FruitRepository;
-import cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCristina.models.service.IFruitService;
+import cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCristina.models.service.FruitService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class FruitService implements IFruitService {
+public class FruitServiceImpl implements FruitService {
     @Autowired
     private FruitRepository fruitRepository;
 
@@ -30,14 +30,14 @@ public class FruitService implements IFruitService {
     @Override
     public void deleteFruita(int id) {
         Fruit fruita = fruitRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Fruit not found with id " + id));
+                .orElseThrow(() -> new FruitNotFoundException("Fruit not found with id " + id));
         fruitRepository.delete(fruita);
     }
 
     @Override
     public Fruit getFruitaById(int id) {
         return fruitRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Fruit not found with id " + id));
+                .orElseThrow(() -> new FruitNotFoundException("Fruit not found with id " + id));
     }
 
     @Override

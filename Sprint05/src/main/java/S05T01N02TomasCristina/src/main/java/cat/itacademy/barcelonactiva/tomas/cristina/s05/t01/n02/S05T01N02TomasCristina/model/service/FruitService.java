@@ -4,7 +4,7 @@ import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n02.S05T01N02TomasCri
 
 import java.util.List;
 
-public interface IFruitService {
+public interface FruitService {
     FlowerDTO addFlower(FlowerDTO flowerDTO);
     FlowerDTO updateFlower(Integer id, FlowerDTO flowerDTO);
     void deleteFlower(Integer id);

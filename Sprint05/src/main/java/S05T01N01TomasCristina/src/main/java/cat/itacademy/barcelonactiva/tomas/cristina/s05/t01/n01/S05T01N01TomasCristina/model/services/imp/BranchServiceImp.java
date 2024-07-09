@@ -5,7 +5,7 @@ import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCri
 
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCristina.model.dto.BranchDTO;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCristina.model.repository.BranchRepository;
-import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCristina.model.services.IFruitService;
+import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCristina.model.services.FruitService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class BranchService implements IFruitService {
+public class BranchServiceImp implements FruitService {
     @Autowired
     private BranchRepository branchRepository;
 

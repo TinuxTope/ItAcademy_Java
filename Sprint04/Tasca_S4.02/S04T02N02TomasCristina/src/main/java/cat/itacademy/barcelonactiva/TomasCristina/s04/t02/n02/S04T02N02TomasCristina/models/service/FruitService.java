@@ -4,7 +4,7 @@ import cat.itacademy.barcelonactiva.TomasCristina.s04.t02.n02.S04T02N02TomasCris
 
 import java.util.List;
 
-public interface IFruitService {
+public interface FruitService {
     Fruit addFruita(Fruit fruita);
     Fruit updateFruita(Fruit fruita);
     void deleteFruita(int id);

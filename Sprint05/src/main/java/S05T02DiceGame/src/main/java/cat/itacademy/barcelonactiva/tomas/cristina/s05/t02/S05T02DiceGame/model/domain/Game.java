@@ -2,9 +2,11 @@ package cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model
 
 
 import jakarta.persistence.*;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 @Entity
-public class Game {
+@EntityListeners(AuditingEntityListener.class)
+public class Game extends Auditable{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -16,10 +18,8 @@ public class Game {
     @JoinColumn(name = "player_id")
     private Player player;
 
-    // Constructor por defecto
     public Game() {}
 
-    // Constructor con parámetros
     public Game(int dice1, int dice2, boolean win, Player player) {
         this.dice1 = dice1;
         this.dice2 = dice2;
@@ -27,7 +27,6 @@ public class Game {
         this.player = player;
     }
 
-    // Getters y Setters
     public Long getId() {
         return id;
     }

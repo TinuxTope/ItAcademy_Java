@@ -2,7 +2,7 @@ package cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n02.S05T01N02TomasCr
 
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n02.S05T01N02TomasCristina.exceptions.FlowerNotFoundException;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n02.S05T01N02TomasCristina.model.domian.FlowerEntity;
-import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n02.S05T01N02TomasCristina.model.service.IFruitService;
+import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n02.S05T01N02TomasCristina.model.service.FruitService;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n02.S05T01N02TomasCristina.util.ContinentCountries;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n02.S05T01N02TomasCristina.model.dto.FlowerDTO;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n02.S05T01N02TomasCristina.model.repository.FlowerRepository;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class FlowerService implements IFruitService {
+public class FlowerServiceImp implements FruitService {
     @Autowired
     private FlowerRepository flowerRepository;
 

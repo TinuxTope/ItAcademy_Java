@@ -1,4 +1,4 @@
-package cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.security;
+package cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.security.jwt;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

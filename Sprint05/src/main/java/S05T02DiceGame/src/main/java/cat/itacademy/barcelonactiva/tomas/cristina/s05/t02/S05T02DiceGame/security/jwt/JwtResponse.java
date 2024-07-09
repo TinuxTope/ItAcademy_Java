@@ -1,4 +1,4 @@
-package cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.dto;
+package cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.security.jwt;
 
 public class JwtResponse {
     private String token;

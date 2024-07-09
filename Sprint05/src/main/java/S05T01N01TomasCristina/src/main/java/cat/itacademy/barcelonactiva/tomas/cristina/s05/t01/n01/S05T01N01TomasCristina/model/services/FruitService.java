@@ -3,7 +3,7 @@ import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCri
 
 import java.util.List;
 
-public interface IFruitService {
+public interface FruitService {
     BranchDTO addBranch(BranchDTO branchDTO);
     BranchDTO updateBranch(Integer id, BranchDTO branchDTO);
     void deleteBranch(Integer id);
