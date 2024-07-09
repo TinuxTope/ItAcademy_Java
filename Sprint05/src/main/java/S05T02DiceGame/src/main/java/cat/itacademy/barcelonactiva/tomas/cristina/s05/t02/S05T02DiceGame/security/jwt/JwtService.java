@@ -1,4 +1,5 @@
 package cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.security.jwt;
+
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -6,6 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
+import javax.xml.bind.DatatypeConverter;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -30,11 +32,15 @@ public class JwtService {
     }
 
     private Claims extractAllClaims(String token) {
-        return Jwts.parser().setSigningKey(secretKey).parseClaimsJws(token).getBody();
+        return Jwts.parser()
+                .setSigningKey(DatatypeConverter.parseBase64Binary(secretKey))
+                .parseClaimsJws(token)
+                .getBody();
     }
 
     public String generateToken(UserDetails userDetails) {
         Map<String, Object> claims = new HashMap<>();
+        claims.put("authorities", userDetails.getAuthorities());
         return createToken(claims, userDetails.getUsername());
     }
 
@@ -44,7 +50,7 @@ public class JwtService {
                 .setSubject(subject)
                 .setIssuedAt(new Date(System.currentTimeMillis()))
                 .setExpiration(new Date(System.currentTimeMillis() + jwtExpirationInMs))
-                .signWith(SignatureAlgorithm.HS256, secretKey)
+                .signWith(SignatureAlgorithm.HS256, DatatypeConverter.parseBase64Binary(secretKey))
                 .compact();
     }
 
@@ -55,5 +61,9 @@ public class JwtService {
 
     private boolean isTokenExpired(String token) {
         return extractClaim(token, Claims::getExpiration).before(new Date());
+    }
+
+    public long getExpirationTime() {
+        return jwtExpirationInMs;
     }
 }
