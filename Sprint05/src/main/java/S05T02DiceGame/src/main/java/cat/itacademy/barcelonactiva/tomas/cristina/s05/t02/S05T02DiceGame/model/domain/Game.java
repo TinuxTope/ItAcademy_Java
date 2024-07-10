@@ -16,6 +16,7 @@ public class Game extends Auditable{
 
     @ManyToOne
     @JoinColumn(name = "player_id")
+
     private Player player;
 
     public Game() {}

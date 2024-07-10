@@ -4,8 +4,11 @@ import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.except
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.exceptions.PlayerNotFoundException;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.exceptions.InvalidPlayerDataException;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.domain.Player;
+import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.domain.PlayerMongo;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.repository.PlayerRepository;
+import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.model.repository.PlayerMongoRepository;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t02.S05T02DiceGame.validation.PlayerValidator;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -17,11 +20,17 @@ import java.util.Date;
 @Service
 public class PlayerService {
 
+@Autowired
     private final PlayerRepository playerRepository;
+@Autowired
+    private PlayerMongoRepository playerMongoRepository;
     private final PasswordEncoder passwordEncoder;
 
-    public PlayerService(PlayerRepository playerRepository, PasswordEncoder passwordEncoder) {
+
+    @Autowired
+    public PlayerService(PlayerRepository playerRepository, PlayerMongoRepository playerMongoRepository, PasswordEncoder passwordEncoder) {
         this.playerRepository = playerRepository;
+        this.playerMongoRepository = playerMongoRepository;
         this.passwordEncoder = passwordEncoder;
     }
 
@@ -33,6 +42,9 @@ public class PlayerService {
         if (playerRepository.findByEmail(email).isPresent()) {
             throw new PlayerAlreadyExistsException("Player with email " + email + " already exists");
         }
+        if (playerMongoRepository.findByEmail(email).isPresent()) {
+            throw new PlayerAlreadyExistsException("Player with email " + email + " already exists in MongoDB");
+        }
         Player player = new Player();
         player.setName(name != null ? name : "ANÒNIM");
         player.setEmail(email);
@@ -43,7 +55,16 @@ public class PlayerService {
             throw new InvalidPlayerDataException("Invalid player data");
         }
 
-        return playerRepository.save(player);
+        playerRepository.save(player);
+
+        PlayerMongo playerMongo = new PlayerMongo();
+        playerMongo.setName(player.getName());
+        playerMongo.setEmail(player.getEmail());
+        playerMongo.setPassword(player.getPassword());
+        playerMongo.setRegisterDate(player.getRegisterDate());
+        playerMongoRepository.save(playerMongo);
+
+        return player;
     }
 
     @PreAuthorize("hasRole('ADMIN')")
@@ -51,7 +72,14 @@ public class PlayerService {
         Player player = playerRepository.findById(id)
                 .orElseThrow(() -> new PlayerNotFoundException("Player not found with id " + id));
         player.setName(name);
-        return playerRepository.save(player);
+        playerRepository.save(player);
+
+        PlayerMongo playerMongo = playerMongoRepository.findByEmail(player.getEmail())
+                .orElseThrow(() -> new PlayerNotFoundException("Player not found with email " + player.getEmail()));
+        playerMongo.setName(name);
+        playerMongoRepository.save(playerMongo);
+
+        return player;
     }
 
     @PreAuthorize("hasRole('ADMIN')")
@@ -60,6 +88,10 @@ public class PlayerService {
                 .orElseThrow(() -> new PlayerNotFoundException("Player not found with id " + playerId));
         player.getGames().clear();
         playerRepository.save(player);
+        PlayerMongo playerMongo = playerMongoRepository.findByEmail(player.getEmail())
+                .orElseThrow(() -> new PlayerNotFoundException("Player not found with email " + player.getEmail()));
+        playerMongo.getGames().clear();
+        playerMongoRepository.save(playerMongo);
     }
 
     @PreAuthorize("hasRole('ADMIN') or hasRole('USER')")

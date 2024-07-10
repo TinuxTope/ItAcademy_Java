@@ -14,15 +14,18 @@ public class Player implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(nullable = false)
     private String name;
+    @Column(nullable = false, unique = true)
     private String email;
+    @Column(nullable = false)
     private String password;
     private Date registerDate;
 
     @Enumerated(EnumType.STRING)
     private Role role;
 
-    @OneToMany(mappedBy = "player", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "player", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Game> games;
 
     public Long getId() {
