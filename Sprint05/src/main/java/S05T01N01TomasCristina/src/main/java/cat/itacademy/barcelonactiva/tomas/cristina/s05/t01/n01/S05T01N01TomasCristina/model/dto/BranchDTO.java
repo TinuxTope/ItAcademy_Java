@@ -3,6 +3,8 @@ package cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCr
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCristina.exceptions.BranchNotFoundException;
 import cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCristina.util.*;
 
+import static cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCristina.util.Country.determineBranchType;
+
 public class BranchDTO {
     private Integer id;
     private String branchName;
@@ -55,19 +57,5 @@ public class BranchDTO {
         this.branchType = branchType;
     }
 
-    private String determineBranchType(String branchCountry) {
-        if (CountryEurope.isCountry(branchCountry)) {
-            return "Europe";
-        } else if (CountryAsia.isCountry(branchCountry)) {
-            return "Asia";
-        } else if (CountryAfrica.isCountry(branchCountry)) {
-            return "Africa";
-        } else if (CountryAmerica.isCountry(branchCountry)) {
-            return "America";
-        } else if (CountryOceania.isCountry(branchCountry)) {
-            return "Oceania";
-        } else {
-            throw new BranchNotFoundException("Unknown country: " + branchCountry);
-        }
-    }
+
 }

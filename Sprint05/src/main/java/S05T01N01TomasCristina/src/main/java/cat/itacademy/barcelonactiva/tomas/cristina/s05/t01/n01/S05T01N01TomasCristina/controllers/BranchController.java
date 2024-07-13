@@ -11,6 +11,8 @@ import org.springframework.ui.Model;
 import java.util.ArrayList;
 import java.util.List;
 
+import static cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n01.S05T01N01TomasCristina.util.Country.getAllCountries;
+
 
 @Controller
 @RequestMapping("/branch")
@@ -22,14 +24,8 @@ public class BranchController {
     @GetMapping
     public String viewBranches(Model model) {
         List<BranchDTO> branches = branchServiceImp.getAllBranches();
-        List<String> countries = new ArrayList<>();
-        countries.addAll(CountryAfrica.COUNTRIES);
-        countries.addAll(CountryAmerica.COUNTRIES);
-        countries.addAll(CountryAsia.COUNTRIES);
-        countries.addAll(CountryEurope.COUNTRIES);
-        countries.addAll(CountryOceania.COUNTRIES);
         model.addAttribute("branches", branches);
-        model.addAttribute("countries", countries);
+        model.addAttribute("countries", getAllCountries());
         return "branch";
     }
 
@@ -42,13 +38,7 @@ public class BranchController {
     public String showEditForm(@PathVariable Integer id, Model model) {
         BranchDTO branchDTO = branchServiceImp.getOneBranch(id);
         model.addAttribute("branch", branchDTO);
-        List<String> countries = new ArrayList<>();
-        countries.addAll(CountryAfrica.COUNTRIES);
-        countries.addAll(CountryAmerica.COUNTRIES);
-        countries.addAll(CountryAsia.COUNTRIES);
-        countries.addAll(CountryEurope.COUNTRIES);
-        countries.addAll(CountryOceania.COUNTRIES);
-        model.addAttribute("countries", countries);
+        model.addAttribute("countries", getAllCountries());
         return "edit-branch";
     }
 
@@ -75,4 +65,5 @@ public class BranchController {
     public List<BranchDTO> getAllBranches() {
         return branchServiceImp.getAllBranches();
     }
+
 }
