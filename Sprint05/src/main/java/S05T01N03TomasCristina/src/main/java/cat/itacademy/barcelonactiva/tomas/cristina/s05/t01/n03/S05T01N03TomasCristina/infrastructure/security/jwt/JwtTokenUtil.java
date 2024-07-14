@@ -3,6 +3,8 @@ package cat.itacademy.barcelonactiva.tomas.cristina.s05.t01.n03.S05T01N03TomasCr
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -12,6 +14,8 @@ import java.util.Map;
 import java.util.function.Function;
 
 @Component
+@AllArgsConstructor
+@NoArgsConstructor
 public class JwtTokenUtil {
     @Value("${jwt.secret}")
     private String secret;
